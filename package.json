@@ -1,0 +1,17 @@
+{
+  "name": "vite-vue-bundle-issue",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build --ssr src/main.js",
+    "test": "node dist/main.js"
+  },
+  "dependencies": {
+    "@vue/server-renderer": "^3.1.5",
+    "vue": "^3.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vue/compiler-sfc": "^3.1.5",
+    "vite": "^2.4.3"
+  }
+}
